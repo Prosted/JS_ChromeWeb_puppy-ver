@@ -11,7 +11,7 @@ function getWeather(lat,lon){
         const temp=json.main.temp;
         const city=json.name;
         const humi=json.main.humidity;
-        weather.innerHTML=`${city} ${temp} ${humi}`;
+        weather.innerHTML=`${city},  ${temp}, ${humi}`;
     });
 }
 

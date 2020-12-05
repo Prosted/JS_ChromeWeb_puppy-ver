@@ -26,7 +26,7 @@ function askForName(){
 function paintName(name){
     form.classList.remove(SHOWING_CN);
     greetings.classList.add(SHOWING_CN);
-    greetings.innerHTML=`Hello ${name}`;   
+    greetings.innerHTML=`Hello! ${name}`;   
 }
 
 function loadName(){
